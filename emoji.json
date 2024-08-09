@@ -1,0 +1,524 @@
+{
+    "颜文字": {
+        "type": "emoticon",
+        "container": [
+            {
+                "icon": "Ciallo～(∠・ω< )⌒★",
+                "text": "Ciallo"
+            },
+            {
+                "icon": "OωO",
+                "text": "Author: DIYgod"
+            },
+            {
+                "icon": "|´・ω・)ノ",
+                "text": "Hi"
+            },
+            {
+                "icon": "ヾ(≧∇≦*)ゝ",
+                "text": "开心"
+            },
+            {
+                "icon": "(☆ω☆)",
+                "text": "星星眼"
+            },
+            {
+                "icon": "（╯‵□′）╯︵┴─┴",
+                "text": "掀桌"
+            },
+            {
+                "icon": "￣﹃￣",
+                "text": "流口水"
+            },
+            {
+                "icon": "(/ω＼)",
+                "text": "捂脸"
+            },
+            {
+                "icon": "∠( ᐛ 」∠)＿",
+                "text": "给跪"
+            },
+            {
+                "icon": "(๑•̀ㅁ•́ฅ)",
+                "text": "Hi"
+            },
+            {
+                "icon": "→_→",
+                "text": "斜眼"
+            },
+            {
+                "icon": "୧(๑•̀⌄•́๑)૭",
+                "text": "加油"
+            },
+            {
+                "icon": "٩(ˊᗜˋ*)و",
+                "text": "有木有WiFi"
+            },
+            {
+                "icon": "(ノ°ο°)ノ",
+                "text": "前方高能预警"
+            },
+            {
+                "icon": "(´இ皿இ｀)",
+                "text": "我从未见过如此厚颜无耻之人"
+            },
+            {
+                "icon": "⌇●﹏●⌇",
+                "text": "吓死宝宝惹"
+            },
+            {
+                "icon": "(ฅ´ω`ฅ)",
+                "text": "已阅留爪"
+            },
+            {
+                "icon": "(╯°A°)╯︵○○○",
+                "text": "去吧大师球"
+            },
+            {
+                "icon": "φ(￣∇￣o)",
+                "text": "太萌惹"
+            },
+            {
+                "icon": "ヾ(´･ ･｀｡)ノ\"",
+                "text": "咦咦咦"
+            },
+            {
+                "icon": "( ง ᵒ̌皿ᵒ̌)ง⁼³₌₃",
+                "text": "气呼呼"
+            },
+            {
+                "icon": "(ó﹏ò｡)",
+                "text": "我受到了惊吓"
+            },
+            {
+                "icon": "Σ(っ °Д °;)っ",
+                "text": "什么鬼"
+            },
+            {
+                "icon": "( ,,´･ω･)ﾉ\"(´っω･｀｡)",
+                "text": "摸摸头"
+            },
+            {
+                "icon": "╮(╯▽╰)╭ ",
+                "text": "无奈"
+            },
+            {
+                "icon": "o(*////▽////*)q ",
+                "text": "脸红"
+            },
+            {
+                "icon": "＞﹏＜",
+                "text": ""
+            },
+            {
+                "icon": "( ๑´•ω•) \"(ㆆᴗㆆ)",
+                "text": ""
+            }
+        ]
+    },
+    "Emoji": {
+        "type": "emoji",
+        "container": [
+            {
+                "icon": "😂",
+                "text": ""
+            },
+            {
+                "icon": "😀",
+                "text": ""
+            },
+            {
+                "icon": "😅",
+                "text": ""
+            },
+            {
+                "icon": "😊",
+                "text": ""
+            },
+            {
+                "icon": "🙂",
+                "text": ""
+            },
+            {
+                "icon": "🙃",
+                "text": ""
+            },
+            {
+                "icon": "😌",
+                "text": ""
+            },
+            {
+                "icon": "😍",
+                "text": ""
+            },
+            {
+                "icon": "😘 ",
+                "text": ""
+            },
+            {
+                "icon": "😜",
+                "text": ""
+            },
+            {
+                "icon": "😝",
+                "text": ""
+            },
+            {
+                "icon": "😏",
+                "text": ""
+            },
+            {
+                "icon": "😒",
+                "text": ""
+            },
+            {
+                "icon": "🙄",
+                "text": ""
+            },
+            {
+                "icon": "😳 ",
+                "text": ""
+            },
+            {
+                "icon": "😡",
+                "text": ""
+            },
+            {
+                "icon": "😔",
+                "text": ""
+            },
+            {
+                "icon": "😫",
+                "text": ""
+            },
+            {
+                "icon": "😱",
+                "text": ""
+            },
+            {
+                "icon": "😭",
+                "text": ""
+            },
+            {
+                "icon": "💩",
+                "text": ""
+            },
+            {
+                "icon": "👻",
+                "text": ""
+            },
+            {
+                "icon": "🙌",
+                "text": ""
+            },
+            {
+                "icon": "🖕",
+                "text": ""
+            },
+            {
+                "icon": "👍",
+                "text": ""
+            },
+            {
+                "icon": "👫",
+                "text": ""
+            },
+            {
+                "icon": "👬",
+                "text": ""
+            },
+            {
+                "icon": "👭",
+                "text": ""
+            },
+            {
+                "icon": "🌚",
+                "text": ""
+            },
+            {
+                "icon": "🌝",
+                "text": ""
+            },
+            {
+                "icon": "🙈",
+                "text": ""
+            },
+            {
+                "icon": "💊",
+                "text": ""
+            },
+            {
+                "icon": "😶",
+                "text": ""
+            },
+            {
+                "icon": "🙏",
+                "text": ""
+            },
+            {
+                "icon": "🍦",
+                "text": ""
+            },
+            {
+                "icon": "🍉",
+                "text": ""
+            },
+            {
+                "icon": "😣",
+                "text": ""
+            }
+        ]
+    },
+    "[BA]铸币大头": {
+        "type": "image",
+        "container": [
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/BA_Coinheads/aris.webp\">",
+                "text": "BAHeads_天童爱丽丝"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/BA_Coinheads/aris-key.webp\">",
+                "text": "BAHeads_爱丽丝_Key"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/BA_Coinheads/azusa-speechless.webp\">",
+                "text": "BAHeads_白洲梓_无语"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/BA_Coinheads/azusa-swim.webp\">",
+                "text": "BAHeads_白洲梓_水着"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/BA_Coinheads/hina.webp\">",
+                "text": "BAHeads_空崎日奈"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/BA_Coinheads/hoshino.webp\">",
+                "text": "BAHeads_小鸟游星野"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/BA_Coinheads/iroha.webp\">",
+                "text": "BAHeads_枣伊吕波"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/BA_Coinheads/kayoko.webp\">",
+                "text": "BAHeads_鬼方佳代子"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/BA_Coinheads/kazusa.webp\">",
+                "text": "BAHeads_杏山和纱"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/BA_Coinheads/koharu.webp\">",
+                "text": "BAHeads_下江小春"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/BA_Coinheads/koyuki.webp\">",
+                "text": "BAHeads_黑崎小雪"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/BA_Coinheads/mutsuki.webp\">",
+                "text": "BAHeads_浅黄睦月"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/BA_Coinheads/nagisa.webp\">",
+                "text": "BAHeads_桐藤渚"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/BA_Coinheads/purana.webp\">",
+                "text": "BAHeads_普拉娜"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/BA_Coinheads/shiroko.webp\">",
+                "text": "BAHeads_砂狼白子"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/BA_Coinheads/shiroko-terror.webp\">",
+                "text": "BAHeads_砂狼白子_色彩"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/BA_Coinheads/ui.webp\">",
+                "text": "BAHeads_古关忧"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/BA_Coinheads/yuuka.webp\">",
+                "text": "BAHeads_早濑优香"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/BA_Coinheads/arona.webp\">",
+                "text": "BAHeads_阿罗娜"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/BA_Coinheads/aru.webp\">",
+                "text": "BAHeads_陆八魔阿露"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/BA_Coinheads/atsuko.webp\">",
+                "text": "BAHeads_秤亚津子"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/BA_Coinheads/atsuko-grin.webp\">",
+                "text": "BAHeads_秤亚津子_咧嘴"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/BA_Coinheads/hanako.webp\">",
+                "text": "BAHeads_浦和花子"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/BA_Coinheads/hibiki.webp\">",
+                "text": "BAHeads_猫冢响"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/BA_Coinheads/hifumi.webp\">",
+                "text": "BAHeads_阿慈谷日富美"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/BA_Coinheads/mika.webp\">",
+                "text": "BAHeads_圣园未花"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/BA_Coinheads/midori.webp\">",
+                "text": "BAHeads_才羽绿"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/BA_Coinheads/momoi.webp\">",
+                "text": "BAHeads_才羽桃井"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/BA_Coinheads/yuume.webp\">",
+                "text": "BAHeads_栀子梦"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/BA_Coinheads/mari.webp\">",
+                "text": "BAHeads_伊落玛丽"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/BA_Coinheads/wanamo.webp\">",
+                "text": "BAHeads_狐坂若藻_水着"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/BA_Coinheads/chise.webp\">",
+                "text": "BAHeads_和乐千世"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/BA_Coinheads/reisa.webp\">",
+                "text": "BAHeads_宇泽玲纱"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/BA_Coinheads/kisaki.webp\">",
+                "text": "BAHeads_龙华妃咲"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/BA_Coinheads/miyo.webp\">",
+                "text": "BAHeads_霞泽美游"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/BA_Coinheads/zako.webp\">",
+                "text": "BAHeads_雑鱼酱"
+            }
+        ]
+    },
+    "[BA]小鸟游星野 差分": {
+        "type": "image",
+        "container": [
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/Hoshino_Emoji/Hoshino_awkward.png\">",
+                "text": "BAHoshino_汗..."
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/Hoshino_Emoji/Hoshino_damnit.png\">",
+                "text": "BAHoshino_该死"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/Hoshino_Emoji/Hoshino_embarrassed.png\">",
+                "text": "BAHoshino_尴尬"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/Hoshino_Emoji/Hoshino_pondering.png\">",
+                "text": "BAHoshino_思考中"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/Hoshino_Emoji/Hoshino_relieved.png\">",
+                "text": "BAHoshino_唔诶~"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/Hoshino_Emoji/Hoshino_serious.png\">",
+                "text": "BAHoshino_我认真的"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/Hoshino_Emoji/Hoshino_tittering.png\">",
+                "text": "BAHoshino_嘿嘿嘿"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/Hoshino_Emoji/Hoshino_unbelievable.png\">",
+                "text": "BAHoshino_诶"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/Hoshino_Emoji/Hoshino_waaaaaa.png\">",
+                "text": "BAHoshino_唔哇哇哇"
+            }
+        ]
+    },
+    "[BA]天童爱丽丝 差分": {
+        "type": "image",
+        "container": [
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/Aris_Emoji/Aris_isolated.png\">",
+                "text": "BAAris_出窍"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/Aris_Emoji/Aris_embarrassed.png\">",
+                "text": "BAAris_尴尬"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/Aris_Emoji/Aris_aggrieved.png\">",
+                "text": "BAAris_内疚"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/Aris_Emoji/Aris_joyful.png\">",
+                "text": "BAAris_高兴"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/Aris_Emoji/Aris_roger.png\">",
+                "text": "BAAris_收到"
+            }
+        ]
+    },
+    "[BA]圣园未花 差分": {
+        "type": "image",
+        "container": [
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/Mika_Emoji/Mika_happy.jpg\">",
+                "text": "BAMika_高兴"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/Mika_Emoji/Mika_confident.jpg\">",
+                "text": "BAMika_相信我"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/Mika_Emoji/Mika_sinister.jpg\">",
+                "text": "BAMika_坏笑"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/Mika_Emoji/Mika_guilty.jpg\">",
+                "text": "BAMika_都是我的错"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/Mika_Emoji/Mika_relieved.jpg\">",
+                "text": "BAMika_松口气"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/Mika_Emoji/Mika_mirthless.jpg\">",
+                "text": "BAMika_苦笑"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/Mika_Emoji/Mika_frozed.jpg\">",
+                "text": "BAMika_楞"
+            },
+            {
+                "icon": "<img src=\"https://img.justpureh2o.cn/image/Mika_Emoji/Mika_mo.jpg\">",
+                "text": "BAMika_真是的"
+            }
+        ]
+    }
+}
