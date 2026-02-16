@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>十年之约 - JustPureH2O 的博客</title>
+    <style>
+        @font-face {
+            font-family: 'HYJiangJun';
+            src: url("../fonts/HYJiangJun-55W.woff2");
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'HYJiangJun', 'Helvetica Neue', Arial, sans-serif;
+        }
+        
+        body {
+            background-size: cover;
+            backdrop-filter: blur(5px);
+            background-image: url("https://img.justpureh2o.cn/image/banners/669f4bbad9c307b7e9b67314.jpg");
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 8px;
+            background: linear-gradient(90deg, #ff7e5f, #feb47b);
+        }
+        
+        h1 {
+            font-size: 2.8rem;
+            margin-bottom: 30px;
+            color: #2c3e50;
+            letter-spacing: 2px;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        
+        .avatar-container {
+            margin: 20px auto 30px;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 5px solid #f8f9fa;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        
+        .avatar {
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, #3498db, #9b59b6);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 3rem;
+        }
+        
+        .days-counter {
+            font-size: 4rem;
+            font-weight: bold;
+            margin: 20px 0;
+            color: #2c3e50;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .days-label {
+            font-size: 1.2rem;
+            color: #7f8c8d;
+            margin-bottom: 30px;
+        }
+        
+        .date-info {
+            display: flex;
+            justify-content: space-between;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+        
+        .date-box {
+            flex: 1;
+            min-width: 200px;
+            padding: 20px;
+            margin: 10px;
+            background: #f8f9fa;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease;
+        }
+        
+        .date-box:hover {
+            transform: translateY(-5px);
+        }
+        
+        .date-title {
+            font-size: 1rem;
+            color: #7f8c8d;
+            margin-bottom: 10px;
+        }
+        
+        .date-value {
+            font-size: 1.4rem;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        
+        .progress-container {
+            margin: 40px 0 20px;
+            text-align: left;
+        }
+        
+        .progress-label {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+            color: #2c3e50;
+        }
+        
+        .progress-bar {
+            height: 20px;
+            background: #ecf0f1;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #3498db, #2ecc71);
+            border-radius: 10px;
+            width: 0;
+            transition: width 1.5s ease-in-out;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .progress-fill::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background-image: linear-gradient(
+                -45deg, 
+                rgba(255, 255, 255, 0.2) 25%, 
+                transparent 25%, 
+                transparent 50%, 
+                rgba(255, 255, 255, 0.2) 50%, 
+                rgba(255, 255, 255, 0.2) 75%, 
+                transparent 75%, 
+                transparent
+            );
+            background-size: 20px 20px;
+            animation: move 1s linear infinite;
+        }
+        
+        @keyframes move {
+            0% {
+                background-position: 0 0;
+            }
+            100% {
+                background-position: 20px 0;
+            }
+        }
+        
+        .quote {
+            margin-top: 30px;
+            font-style: italic;
+            color: #7f8c8d;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            border-left: 4px solid #3498db;
+            padding-left: 15px;
+            text-align: left;
+        }
+      
+        img {
+            max-width: 100%;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .days-counter {
+                font-size: 3rem;
+            }
+            
+            .date-info {
+                flex-direction: column;
+            }
+            
+            .date-box {
+                min-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>我的博客 · 十年之约</h1>
+        
+        <div class="avatar-container">
+            <div class="avatar">
+          		<img src="https://img.justpureh2o.cn/image/667f85b1d9c307b7e9ef9f2c.jpg">
+            </div>
+        </div>
+        
+        <div class="days-counter" id="daysCounter">723</div>
+        <div class="days-label">已运行天数</div>
+        
+        <div class="date-info">
+            <div class="date-box">
+                <div class="date-title">建站日期</div>
+                <div class="date-value" id="startDate">2023-10-26</div>
+            </div>
+            
+            <div class="date-box">
+                <div class="date-title">十年之约到期日</div>
+                <div class="date-value" id="endDate">2033-10-26</div>
+            </div>
+        </div>
+        
+        <div class="progress-container">
+            <div class="progress-label">
+                <span>十年之约进度</span>
+                <span id="progressPercent">0%</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+        </div>
+        
+        <div class="quote">
+            "十年之约，是坚持，是承诺，是对未来的期许。无论风雨，无论晴好，我会在这里记录、分享、成长。"
+        </div>
+    </div>
+
+    <script>        
+        // 计算建站日期
+        const startDate = new Date('2023-10-26');
+        
+        // 计算十年之约到期日
+        const endDate = new Date('2033-10-26');
+        const today = new Date();
+        const daysPassed = Math.floor((today - startDate) / (1000 * 60 *60 * 24));
+        
+        // 计算总天数和进度百分比
+        const totalDays = Math.floor((endDate - startDate) / (1000 * 60 * 60 * 24));
+        const progress = (daysPassed / totalDays * 100).toFixed(1);
+        
+        // 格式化日期为 YYYY-MM-DD
+        function formatDate(date) {
+            const year = date.getFullYear();
+            const month = String(date.getMonth() + 1).padStart(2, '0');
+            const day = String(date.getDate()).padStart(2, '0');
+            return `${year}-${month}-${day}`;
+        }
+        
+        // 更新页面内容
+        document.getElementById('startDate').textContent = formatDate(startDate);
+        document.getElementById('endDate').textContent = formatDate(endDate);
+        document.getElementById('progressPercent').textContent = `${progress}%`;
+        
+        // 动画显示进度条
+        setTimeout(() => {
+            document.getElementById('progressFill').style.width = `${progress}%`;
+        }, 500);
+        
+        // 更新运行天数（动态效果）
+        let currentDays = 0;
+        const daysCounter = document.getElementById('daysCounter');
+        const increment = Math.ceil(daysPassed / 100);
+        
+        const counterInterval = setInterval(() => {
+            currentDays += increment;
+            if (currentDays >= daysPassed) {
+                currentDays = daysPassed;
+                clearInterval(counterInterval);
+            }
+            daysCounter.textContent = currentDays;
+        }, 20);
+    </script>
+</body>
+</html>
