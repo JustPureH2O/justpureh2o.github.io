@@ -1,6 +1,9 @@
 name: IndexNow
 
 on:
+  push:
+    branches:
+      - master
   schedule:
     # Set the schedule time
     - cron: '0 2 * * *'
