@@ -12,6 +12,8 @@ jobs:
   submit: 
     runs-on: ubuntu-latest
     steps:
+      - name: 生成密钥
+        run: echo ${{ secrets.INDEXNOW_KEY }} > ${{ secrets.INDEXNOW_KEY }}.txt
       - name: 提交链接
         uses: bojieyang/indexnow-action@v2
         with:
@@ -19,4 +21,4 @@ jobs:
           sitemap-location: 'https://justpureh2o.cn/sitemap-0.xml'
           # URLs with `lastmod` fields in sitemap files within the last {since} {since-unit} will be submitted.
           key: '888c17b59562490f866e799aeac0f717'
-          
+          lastmod-required: false
