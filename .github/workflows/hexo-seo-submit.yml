@@ -22,3 +22,4 @@ jobs:
           # URLs with `lastmod` fields in sitemap files within the last {since} {since-unit} will be submitted.
           key: ${{ secrets.INDEXNOW_KEY }}
           lastmod-required: false
+          limit: 300
