@@ -20,5 +20,5 @@ jobs:
           # The location of the sitemap(e.g., https://example.com/sitemap.xml).
           sitemap-location: 'https://justpureh2o.cn/sitemap-0.xml'
           # URLs with `lastmod` fields in sitemap files within the last {since} {since-unit} will be submitted.
-          key: '888c17b59562490f866e799aeac0f717'
+          key: ${{ secrets.INDEXNOW_KEY }}
           lastmod-required: false
